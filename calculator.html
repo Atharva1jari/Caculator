@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+<title>Document</title>
+<style>
+.Calci-container
+{
+   background-color:rgb(23, 22, 22);
+   width: 340px;
+   padding: 20px;
+   margin-top: 50px;
+   border-radius: 17px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.input-calci
+{
+   font-size: 25px;
+   width: 300px;
+   height: 40px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 12px;
+   padding: 5px;
+   border: 3px solid black;
+   margin-top: 5px;
+   background-color: rgb(125, 184, 132);
+   margin-bottom: 20px;
+}
+.button-row
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+.buttonn
+{
+    flex-direction: row-reverse;
+    height: 60px;
+    width:140px;
+    background-color:red;
+    font-size:30px;
+    border-radius: 10px 0px 10px 0px;
+}
+.buttonm
+{
+    height: 60px;
+    width:60px;
+    background-color:rgb(5, 181, 250);
+    font-size:30px;
+    border-radius: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+.button
+{
+    color: white ;
+    font-size:30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: rgb(23, 10, 10);
+}
+.buttoncoloum
+{
+    flex-direction: column;
+    font-size:30px;
+    height: 140px;
+    width: 60px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: rgb(23, 10, 10);
+    text-align: initial;
+    color: white;
+}
+.text
+{
+    color:white;
+    font-size: 19px;
+}
+.smallCalci-container
+{
+   display: flex;
+   justify-content: end;
+   margin-right: 24px;
+   padding-bottom: 10px;
+}
+.smallCalci
+{
+   height: 20px;
+   width: 20px;
+   background-color: rgb(125, 184, 132);
+   border: 1px solid white ;
+}
+</style>
+</head>
+<body>
+    <div class="Calci-container">
+        <p class="text">Casio</p>
+
+        <input type="text" class="input-calci"/>
+        <div class="smallCalci-container">
+            <div class="smallCalci"></div>
+            <div class="smallCalci"></div>
+            <div class="smallCalci"></div>
+            <div class="smallCalci"></div>
+
+        </div>
+        <div class="button-row">
+            <button class="buttonn">C</button>
+            <button class="button">/</button>
+            <button class="button">*</button>
+        </div>
+        <div class="button-row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">-</button>
+        </div>
+        <div class="button-row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="buttoncoloum">+</button>
+        </div>
+        <div class="button-row">
+            <button class="button" style="margin-top: -80px;margin-left: 2px;">1</button>
+            <button class="button " style="margin-top: -80px;margin-left: 5px;">2</button>
+            <button class="button"style="margin-top: -80px;margin-right: 84px;">3</button>
+        </div>
+        <div class="button-row">
+            <button class="button"style="margin-top: -20px;">0</button>
+            <button class="button" style="margin-top: -20px;">00</button>
+            <button class="button" style="margin-top: -20px;">.</button>
+            <button class="buttonm" style="margin-top: -20px;">=</button>
+        </div>
+    </div>  
+</body>
+</html>
