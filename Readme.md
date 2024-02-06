@@ -14,3 +14,5 @@ A simple Calculator for general calculation purposes.
 
 ### output of addition
 ![Screenshot](/images/Screenshot%20(116).png)
+
+[click here for live website 👉](https://simple-caculator-htmlcss.netlify.app/)
