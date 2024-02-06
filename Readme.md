@@ -1,5 +1,12 @@
 # Calculator 📱
 
+A simple Calculator for general calculation purposes.
+
+### Features of calculator
+- Add (+)
+- Multiply (*)
+- Subtract (-)
+- Divide (/)
 
 
 ### Addition of Two number
